@@ -1,0 +1,32 @@
+{
+  "name": "typed-constants",
+  "version": "1.0.0",
+  "description": "TypeScript typings for the core constants library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tsc test/test.ts --module commonjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weswigham/typed-constants.git"
+  },
+  "keywords": [
+    "typescript",
+    "constants",
+    "typed",
+    "module",
+    "definitely"
+  ],
+  "author": "weswigham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weswigham/typed-constants/issues"
+  },
+  "homepage": "https://github.com/weswigham/typed-constants#readme",
+  "devDependencies": {
+    "typescript": "^1.6.0-beta"
+  }
+}
